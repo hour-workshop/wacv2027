@@ -10,6 +10,5 @@
 - label: Poster session and discussion
   detail: Interactive presentation of accepted work
 
-- label: Panel discussion and closing remarks
-  detail: Open challenges, evaluation priorities, and future community activities
-
+- label: Closing remarks
+  detail: Workshop summary and future community activities
