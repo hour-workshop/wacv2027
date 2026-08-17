@@ -1,0 +1,13 @@
+title: HOUR Workshop at WACV 2027
+description: Human-Centric Open-World Understanding and Reasoning
+url: "https://hour-workshop.github.io"
+baseurl: "/wacv2027"
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,237 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HOUR: Human-Centric Open-World Understanding and Reasoning, a half-day workshop at WACV 2027.">
+    <meta name="theme-color" content="#13283f">
+    <title>{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="HOUR workshop home">
+          <span class="brand-mark">H</span>
+          <span>HOUR <small>WACV 2027</small></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#submissions">Call for Papers</a>
+          <a href="#program">Program</a>
+          <a href="#organizers">Organizers</a>
+          <a href="#committee">Committee</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <div class="eyebrow">The 1st HOUR Workshop · WACV 2027</div>
+          <h1>Human-Centric<br><span>Open-World</span> Understanding and Reasoning</h1>
+          <p class="hero-copy">Connecting perception, interaction, multimodal reasoning, embodied intelligence, open-world generalization, and reliable evaluation.</p>
+          <div class="event-facts" aria-label="Workshop details">
+            <div><strong>Orlando, Florida</strong><span>WACV 2027</span></div>
+            <div><strong>January 4 or 5</strong><span>Exact date to be announced</span></div>
+            <div><strong>Half-day</strong><span>In-person workshop</span></div>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#submissions">View Call for Papers</a>
+            <a class="button button-secondary" href="#speakers">Meet the Speakers</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="announcement">
+        <div class="container"><strong>Workshop accepted.</strong> HOUR will be held as a half-day workshop at WACV 2027. The precise date and time will be announced soon.</div>
+      </div>
+
+      <section class="section" id="about">
+        <div class="container narrow">
+          <div class="section-label">About HOUR</div>
+          <h2>Understanding people as agents in an open world</h2>
+          <div class="lead-grid">
+            <p>Computer vision and AI systems increasingly need to understand people whose actions, interactions, goals, and intentions unfold in complex environments. Progress spans activity understanding, human-object interaction, affordance learning, multimodal grounding, foundation models, embodied intelligence, open-world learning, and reliability evaluation.</p>
+            <p><strong>HOUR—Human-Centric Open-World Understanding and Reasoning</strong>—brings these complementary directions together under a shared goal. The workshop will connect perception, spatial grounding, interaction and intent reasoning, generalization, and reliability diagnosis while encouraging new collaborations across communities.</p>
+          </div>
+
+          <div class="questions">
+            <article><span>01</span><h3>Capabilities</h3><p>What human-centric capabilities are required for intelligent systems operating in open environments?</p></article>
+            <article><span>02</span><h3>Evidence</h3><p>How should visual, linguistic, gestural, and contextual evidence be combined when observations are incomplete or ambiguous?</p></article>
+            <article><span>03</span><h3>Evaluation</h3><p>How should benchmarks reveal when and why systems fail rather than reporting only aggregate accuracy?</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="topics">
+        <div class="container">
+          <div class="section-label">Topics of Interest</div>
+          <h2>Research directions across human-centric AI</h2>
+          <div class="topic-grid">
+            <div>Human actions, activities, pose, motion, and tracking</div>
+            <div>Human-object and human-human interaction understanding</div>
+            <div>Affordance grounding, intent, goals, and anticipation</div>
+            <div>Spatial, gestural, and referential reasoning</div>
+            <div>Vision-language and multimodal foundation models</div>
+            <div>Embodied perception and learning from demonstrations</div>
+            <div>Open-vocabulary, zero-shot, and few-shot learning</div>
+            <div>Domain generalization and out-of-distribution robustness</div>
+            <div>Datasets, benchmarks, reliability, and failure attribution</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="speakers">
+        <div class="container">
+          <div class="section-label">Keynote Speakers</div>
+          <div class="section-heading-row">
+            <h2>Complementary perspectives on human-centric AI</h2>
+            <p>Talk titles and the final program will be announced after the workshop schedule is assigned.</p>
+          </div>
+          <div class="people-grid speakers-grid">
+            {% for person in site.data.speakers %}
+            <article class="person-card speaker-card">
+              <div class="avatar avatar-large" aria-hidden="true">{{ person.initials }}</div>
+              <div class="person-meta">
+                <h3>{{ person.name }}</h3>
+                <p class="person-title">{{ person.title }}</p>
+                <p class="person-affiliation">{{ person.affiliation }}</p>
+              </div>
+              <p class="person-topic">{{ person.topic }}</p>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="submissions">
+        <div class="container">
+          <div class="section-label">Call for Papers</div>
+          <div class="section-heading-row">
+            <h2>Share research, resources, and emerging perspectives</h2>
+            <p>HOUR welcomes original research, benchmark and dataset studies, diagnostic analyses, position papers, and works in progress.</p>
+          </div>
+          <div class="track-grid">
+            <article>
+              <span class="track-number">Track 01</span>
+              <h3>Archival workshop papers</h3>
+              <p>Submissions of at least five pages following the WACV format. Accepted archival papers will be eligible for publication in the WACV 2027 Workshop Proceedings.</p>
+            </article>
+            <article>
+              <span class="track-number">Track 02</span>
+              <h3>Non-archival contributions</h3>
+              <p>Extended abstracts and position papers presenting emerging ideas, findings, resources, or community perspectives. These submissions will not appear in the proceedings.</p>
+            </article>
+          </div>
+          <div class="submission-note">
+            <strong>Submission site:</strong> OpenReview link to be announced. Submissions will be reviewed for relevance, technical quality, clarity, and potential to stimulate discussion.
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="dates">
+        <div class="container">
+          <div class="section-label">Important Dates</div>
+          <h2>Workshop timeline</h2>
+          <div class="timeline">
+            {% for item in site.data.dates %}
+            <div class="timeline-item">
+              <time>{{ item.date }}</time>
+              <p>{{ item.label }}</p>
+            </div>
+            {% endfor %}
+          </div>
+          <p class="small-note">Deadlines are based on the WACV 2027 workshop timeline. Additional submission dates will be announced.</p>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="program">
+        <div class="container">
+          <div class="section-label">Preliminary Program</div>
+          <div class="section-heading-row">
+            <h2>A focused half-day program</h2>
+            <p>Exact times and presentation titles will be added after WACV assigns the workshop session.</p>
+          </div>
+          <div class="program-list">
+            {% for item in site.data.program %}
+            <div class="program-item">
+              <span>{{ forloop.index | prepend: '0' }}</span>
+              <div><h3>{{ item.label }}</h3><p>{{ item.detail }}</p></div>
+              <time>TBD</time>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="organizers">
+        <div class="container">
+          <div class="section-label">Organizing Team</div>
+          <h2>Researchers across academia and industry</h2>
+          <div class="people-grid organizers-grid">
+            {% for person in site.data.organizers %}
+            <article class="person-card compact-card">
+              <div class="avatar" aria-hidden="true">{{ person.initials }}</div>
+              <div class="person-meta">
+                <h3>{{ person.name }}</h3>
+                <p class="person-affiliation">{{ person.affiliation }}</p>
+                {% if person.role %}<p class="person-role">{{ person.role }}</p>{% endif %}
+              </div>
+              <p class="person-bio">{{ person.bio }}</p>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="committee">
+        <div class="container">
+          <div class="section-label">Program Committee</div>
+          <div class="section-heading-row">
+            <h2>Supporting a thoughtful review process</h2>
+            <p>The committee will continue to grow to cover the workshop's broad technical scope.</p>
+          </div>
+          <div class="committee-grid">
+            {% for person in site.data.committee %}
+            <article class="committee-card">
+              <div class="avatar avatar-small" aria-hidden="true">{{ person.initials }}</div>
+              <div><h3>{{ person.name }}</h3><p>{{ person.affiliation }}</p></div>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-inner">
+          <div><div class="section-label">Contact</div><h2>Questions about HOUR?</h2></div>
+          <div><p>For workshop and submission questions, contact the organizing team.</p><a class="contact-link" href="mailto:hour.workshops@gmail.com">hour.workshops@gmail.com</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>HOUR: Human-Centric Open-World Understanding and Reasoning</p>
+        <p>In conjunction with <a href="https://wacv.thecvf.com/Conferences/2027" target="_blank" rel="noopener">WACV 2027</a></p>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>

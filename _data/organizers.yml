@@ -1,0 +1,39 @@
+- name: Bo (Hawk) Wang
+  initials: HW
+  affiliation: University of Mississippi
+  bio: Works on robust human-centric AI, computer vision, and multimodal foundation models.
+
+- name: Qinqian Lei
+  initials: QL
+  affiliation: National University of Singapore
+  bio: Works on vision-language methods for human-object interaction and affordance grounding.
+
+- name: Zheda Mai
+  initials: ZM
+  affiliation: The Ohio State University
+  bio: Works on robust foundation-model adaptation, continual learning, and robotics.
+
+- name: Ke Zhang
+  initials: KZ
+  affiliation: Amazon Robotics
+  bio: Works on vision-language models, 3D perception, scene understanding, and robotics.
+
+- name: Wei-Lun (Harry) Chao
+  initials: WC
+  affiliation: Boston University
+  bio: Works on machine learning, computer vision, autonomous driving, and reliable AI.
+
+- name: Lemeng Wang
+  initials: LW
+  affiliation: Stanford University
+  bio: Works on human-object interaction detection, evaluation, and benchmark development.
+
+- name: Daguang Xu
+  initials: DX
+  affiliation: NVIDIA
+  bio: Leads research on healthcare AI, multimodal learning, and foundation models.
+
+- name: Robby T. Tan
+  initials: RT
+  affiliation: National University of Singapore
+  bio: Works on computer vision, deep learning, generative AI, and robust visual understanding.

@@ -1,0 +1,29 @@
+- name: Kristen Grauman
+  initials: KG
+  affiliation: University of Texas at Austin
+  title: Professor
+  topic: Egocentric vision and embodied AI
+
+- name: Angela Yao
+  initials: AY
+  affiliation: National University of Singapore
+  title: Dean's Chair Associate Professor
+  topic: Human-centric video understanding and assistive AI
+
+- name: Chen Chen
+  initials: CC
+  affiliation: University of Central Florida
+  title: Associate Professor
+  topic: Human motion modeling and generation
+
+- name: Xiaoming Liu
+  initials: XL
+  affiliation: University of North Carolina at Chapel Hill
+  title: Johnston Distinguished Professor
+  topic: Human-centric vision and visual recognition
+
+- name: Michael Wray
+  initials: MW
+  affiliation: University of Bristol
+  title: Senior Lecturer (Assistant Professor) in Computer Vision
+  topic: Action understanding and anticipation
