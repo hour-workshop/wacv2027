@@ -100,7 +100,7 @@ layout: null
         <div class="container">
           <div class="section-label">Keynote Speakers</div>
           <div class="section-heading-row">
-            <h2>Complementary perspectives on human-centric AI</h2>
+            <h2>Perspectives across the community</h2>
             <p>Talk titles and the final program will be announced after the workshop schedule is assigned.</p>
           </div>
           <div class="people-grid speakers-grid">
@@ -109,10 +109,9 @@ layout: null
               <div class="avatar avatar-large" aria-hidden="true">{{ person.initials }}</div>
               <div class="person-meta">
                 <h3>{{ person.name }}</h3>
-                <p class="person-title">{{ person.title }}</p>
                 <p class="person-affiliation">{{ person.affiliation }}</p>
               </div>
-              <p class="person-topic">{{ person.topic }}</p>
+              <p class="person-topic">{{ person.bio }}</p>
             </article>
             {% endfor %}
           </div>
