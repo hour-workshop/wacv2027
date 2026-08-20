@@ -1,24 +1,34 @@
 - name: Kristen Grauman
   initials: KG
   affiliation: University of Texas at Austin
+  homepage: https://www.cs.utexas.edu/~grauman/
+  scholar: https://scholar.google.com/citations?user=Jp6Mz1sAAAAJ&hl=en
   bio: Research on computer vision and machine learning, focusing on video understanding, multimodal perception, embodied AI, and visual recognition.
 
 - name: Angela Yao
   initials: AY
   affiliation: National University of Singapore
+  homepage: https://www.comp.nus.edu.sg/~ayao/
+  scholar: https://scholar.google.com/citations?user=-LJCZMMAAAAJ&hl=en
   bio: Research on human-centric computer vision and video understanding, with a focus on contextual AI systems for understanding and assisting with human activity.
 
 - name: Chen Chen
   initials: CC
   affiliation: University of Central Florida
+  homepage: https://www.crcv.ucf.edu/chenchen/
+  scholar: https://scholar.google.com/citations?hl=en&user=TuEwcZ0AAAAJ
   bio: Research on multimodal learning, computer vision, and efficient learning systems, including foundation models, human-centric AI, and privacy-preserving learning.
 
 - name: Xiaoming Liu
   initials: XL
   affiliation: University of North Carolina at Chapel Hill
+  homepage: https://cs.unc.edu/person/xiaoming-liu/
+  scholar: https://scholar.google.com/citations?user=Bii0w1oAAAAJ&hl=en
   bio: Research on computer vision, machine learning, and biometrics, with a focus on human recognition, face-related analysis, and 3D vision.
 
 - name: Michael Wray
   initials: MW
   affiliation: University of Bristol
+  homepage: https://mwray.github.io/
+  scholar: https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao
   bio: Research on multimodal video understanding, particularly egocentric video and vision-language methods for retrieval, grounding, and captioning.

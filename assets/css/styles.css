@@ -106,7 +106,11 @@ img { max-width: 100%; }
 .person-title, .person-affiliation, .person-role, .person-topic, .person-bio { margin: 0; }
 .person-title { color: var(--ink-soft); font-size: 0.82rem; }
 .person-affiliation { color: var(--teal); font-size: 0.86rem; font-weight: 800; }
-.person-topic { margin-top: auto; padding-top: 28px; color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid var(--line); }
+.person-links { display: flex; gap: 8px; margin-top: 13px; }
+.person-links a { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; color: var(--ink-soft); text-decoration: none; transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease; }
+.person-links a:hover, .person-links a:focus-visible { border-color: var(--teal); color: var(--teal); background: var(--teal-light); }
+.person-links .material-symbols-rounded { font-size: 19px; line-height: 1; }
+.person-topic { margin-top: 20px; padding-top: 22px; color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid var(--line); }
 .compact-card { display: grid; grid-template-columns: 58px 1fr; gap: 16px; }
 .person-role { color: var(--gold); font-size: 0.76rem; font-weight: 800; text-transform: uppercase; }
 .person-bio { grid-column: 1 / -1; color: var(--ink-soft); font-size: 0.88rem; }
@@ -142,11 +146,21 @@ img { max-width: 100%; }
 .site-footer p { margin: 0; }
 .site-footer a { color: var(--white); }
 
+@media (min-width: 1180px) {
+  .speakers-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
+  .speaker-card { min-height: 430px; padding: 20px; }
+  .speaker-card .avatar-large { width: 84px; height: 84px; margin-bottom: 22px; font-size: 1.75rem; }
+  .speaker-card .person-meta { display: flex; min-height: 128px; flex-direction: column; }
+  .speaker-card .person-links { margin-top: auto; }
+  .speaker-card .person-meta h3 { font-size: 1rem; }
+  .speaker-card .person-affiliation { font-size: 0.79rem; }
+  .speaker-card .person-topic { font-size: 0.82rem; }
+}
+
 @media (max-width: 1040px) {
   .site-nav { position: absolute; left: 20px; right: 20px; top: 68px; display: none; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); box-shadow: var(--shadow); }
   .site-nav.is-open { display: grid; grid-template-columns: repeat(2, 1fr); }
   .nav-toggle { display: block; }
-  .speakers-grid { grid-template-columns: repeat(2, 1fr); }
   .organizers-grid, .committee-grid, .topic-grid { grid-template-columns: repeat(2, 1fr); }
 }
 

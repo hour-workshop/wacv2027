@@ -12,6 +12,7 @@ layout: null
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,500,0,0" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   </head>
   <body>
@@ -110,6 +111,14 @@ layout: null
               <div class="person-meta">
                 <h3>{{ person.name }}</h3>
                 <p class="person-affiliation">{{ person.affiliation }}</p>
+                <div class="person-links" aria-label="Links for {{ person.name }}">
+                  <a href="{{ person.homepage }}" target="_blank" rel="noopener" aria-label="{{ person.name }} homepage" title="Homepage">
+                    <span class="material-symbols-rounded" aria-hidden="true">home</span>
+                  </a>
+                  <a href="{{ person.scholar }}" target="_blank" rel="noopener" aria-label="{{ person.name }} on Google Scholar" title="Google Scholar">
+                    <span class="material-symbols-rounded" aria-hidden="true">school</span>
+                  </a>
+                </div>
               </div>
               <p class="person-topic">{{ person.bio }}</p>
             </article>
