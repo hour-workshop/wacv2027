@@ -107,7 +107,13 @@ layout: null
           <div class="people-grid speakers-grid">
             {% for person in site.data.speakers %}
             <article class="person-card speaker-card">
+              {% if person.photo %}
+              <div class="avatar avatar-large speaker-portrait">
+                <img src="{{ person.photo | relative_url }}" alt="{{ person.name | escape }}" width="98" height="98" loading="lazy" decoding="async" style="object-position: {{ person.photo_position | default: '50% 50%' }}; --portrait-scale: {{ person.photo_scale | default: 1 }}; --portrait-origin: {{ person.photo_origin | default: '50% 30%' }}; --portrait-shift-y: {{ person.photo_shift_y | default: '0%' }};">
+              </div>
+              {% else %}
               <div class="avatar avatar-large" aria-hidden="true">{{ person.initials }}</div>
+              {% endif %}
               <div class="person-meta">
                 <h3>{{ person.name }}</h3>
                 <p class="person-affiliation">{{ person.affiliation }}</p>

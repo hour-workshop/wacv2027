@@ -1,5 +1,8 @@
 - name: Kristen Grauman
   initials: KG
+  photo: /assets/images/speakers/kristen-grauman.jpg
+  photo_position: 50% 30%
+  photo_scale: 1.4
   affiliation: University of Texas at Austin
   homepage: https://www.cs.utexas.edu/~grauman/
   scholar: https://scholar.google.com/citations?user=Jp6Mz1sAAAAJ&hl=en
@@ -7,6 +10,7 @@
 
 - name: Chen Chen
   initials: CC
+  photo: /assets/images/speakers/chen-chen.webp
   affiliation: University of Central Florida
   homepage: https://www.crcv.ucf.edu/chenchen/
   scholar: https://scholar.google.com/citations?hl=en&user=TuEwcZ0AAAAJ
@@ -14,6 +18,7 @@
 
 - name: Xiaoming Liu
   initials: XL
+  photo: /assets/images/speakers/xiaoming-liu.avif
   affiliation: University of North Carolina at Chapel Hill
   homepage: https://cs.unc.edu/person/xiaoming-liu/
   scholar: https://scholar.google.com/citations?user=Bii0w1oAAAAJ&hl=en
@@ -21,6 +26,9 @@
 
 - name: Michael Wray
   initials: MW
+  photo: /assets/images/speakers/michael-wray.jpeg
+  photo_position: 50% 25%
+  photo_shift_y: -7%
   affiliation: University of Bristol
   homepage: https://mwray.github.io/
   scholar: https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao
@@ -28,6 +36,10 @@
 
 - name: Guodong Ding
   initials: GD
+  photo: /assets/images/speakers/guodong-ding.jpeg
+  photo_position: 50% 30%
+  photo_scale: 1.2
+  photo_origin: 50% 0%
   affiliation: National University of Singapore
   homepage: https://guodongding.cn/
   scholar: https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ

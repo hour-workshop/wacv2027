@@ -104,6 +104,8 @@ img { max-width: 100%; }
 .speaker-card { display: flex; min-height: 355px; flex-direction: column; }
 .avatar { display: grid; flex: 0 0 auto; place-items: center; width: 58px; height: 58px; border-radius: 18px; color: var(--white); background: linear-gradient(145deg, var(--teal), var(--navy)); font-family: "Newsreader", serif; font-size: 1.3rem; font-weight: 700; }
 .avatar-large { width: 98px; height: 98px; margin-bottom: 25px; border-radius: 50%; font-size: 2rem; }
+.speaker-portrait { overflow: hidden; background: var(--paper); }
+.speaker-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; transform: translateY(var(--portrait-shift-y, 0%)) scale(var(--portrait-scale, 1)); transform-origin: var(--portrait-origin, 50% 30%); }
 .avatar-small { width: 48px; height: 48px; border-radius: 15px; font-size: 1rem; }
 .person-meta h3, .committee-card h3 { margin: 0 0 5px; font-size: 1.08rem; line-height: 1.25; }
 .person-title, .person-affiliation, .person-role, .person-topic, .person-bio { margin: 0; }
