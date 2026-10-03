@@ -1,34 +1,63 @@
 - name: Hawk Bo Wang
   initials: HW
+  homepage: https://hawkrsrch.github.io/
+  photo: /assets/images/organizers/hawk-bo-wang.jpeg
   affiliation: University of Mississippi
   bio: Works on robust human-centric AI, computer vision, and multimodal foundation models.
 
 - name: Qinqian Lei
   initials: QL
+  homepage: https://chelsielei.github.io/
+  photo: /assets/images/organizers/qinqian-lei.jpg
+  photo_scale: 1.8
+  photo_position: 50% 0%
+  photo_origin: 49% 8%
   affiliation: National University of Singapore
   bio: Works on vision-language methods for human-object interaction and affordance grounding.
 
 - name: Zheda Mai
   initials: ZM
+  homepage: https://zheda-mai.github.io/
+  photo: /assets/images/organizers/zheda-mai.jpeg
+  photo_scale: 2
+  photo_origin: 43% 16%
   affiliation: The Ohio State University
   bio: Works on robust foundation-model adaptation, continual learning, and robotics.
 
 - name: Wei-Lun (Harry) Chao
   initials: WC
+  homepage: https://sites.google.com/view/wei-lun-harry-chao
+  photo: /assets/images/organizers/wei-lun-chao.png
+  photo_scale: 1.6
+  photo_position: 50% 65%
+  photo_origin: 62.4% 26%
   affiliation: Boston University
   bio: Works on machine learning, computer vision, autonomous driving, and reliable AI.
 
 - name: Lemeng Wang
   initials: LW
+  homepage: https://florawlm.github.io/Lemeng-Wang-Personal-Website/
+  photo: /assets/images/organizers/lemeng-wang.jpeg
+  photo_scale: 1.2
+  photo_origin: 40% 45%
   affiliation: Stanford University
   bio: Works on human-object interaction detection, evaluation, and benchmark development.
 
 - name: Daguang Xu
   initials: DX
+  homepage: https://daguangxu.net/
+  photo: /assets/images/organizers/daguang-xu.jpg
+  photo_scale: 2
+  photo_position: 50% 0%
+  photo_origin: 39% 6%
   affiliation: NVIDIA
   bio: Leads research on healthcare AI, multimodal learning, and foundation models.
 
 - name: Robby T. Tan
   initials: RT
+  homepage: https://tanrobby.github.io/
+  photo: /assets/images/organizers/robby-tan.jpg
+  photo_scale: 1.1
+  photo_position: 50% 0%
   affiliation: National University of Singapore
   bio: Works on computer vision, deep learning, generative AI, and robust visual understanding.

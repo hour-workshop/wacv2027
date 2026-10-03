@@ -217,9 +217,15 @@ layout: null
           <div class="people-grid organizers-grid">
             {% for person in site.data.organizers %}
             <article class="person-card compact-card">
+              {% if person.photo %}
+              <div class="avatar organizer-portrait">
+                <img src="{{ person.photo | relative_url }}" alt="{{ person.name | escape }}" width="58" height="58" loading="lazy" decoding="async" style="object-position: {{ person.photo_position | default: '50% 50%' }}; --organizer-scale: {{ person.photo_scale | default: 1 }}; --organizer-origin: {{ person.photo_origin | default: '50% 30%' }};">
+              </div>
+              {% else %}
               <div class="avatar" aria-hidden="true">{{ person.initials }}</div>
+              {% endif %}
               <div class="person-meta">
-                <h3>{{ person.name }}</h3>
+                <h3><a class="organizer-name" href="{{ person.homepage }}" target="_blank" rel="noopener">{{ person.name }}</a></h3>
                 <p class="person-affiliation">{{ person.affiliation }}</p>
                 {% if person.role %}<p class="person-role">{{ person.role }}</p>{% endif %}
               </div>

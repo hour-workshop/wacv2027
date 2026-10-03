@@ -117,6 +117,10 @@ img { max-width: 100%; }
 .person-links .material-symbols-rounded { font-size: 19px; line-height: 1; }
 .person-topic { margin-top: 20px; padding-top: 22px; color: var(--ink-soft); font-size: 0.9rem; border-top: 1px solid var(--line); }
 .compact-card { display: grid; grid-template-columns: 58px 1fr; gap: 16px; }
+.organizer-portrait { position: relative; overflow: hidden; border-radius: 50%; background: var(--paper); }
+.organizer-portrait img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(var(--organizer-scale, 1)); transform-origin: var(--organizer-origin, 50% 30%); }
+.organizer-name { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.organizer-name:hover, .organizer-name:focus-visible { color: var(--teal); text-decoration-color: currentColor; }
 .person-role { color: var(--gold); font-size: 0.76rem; font-weight: 800; text-transform: uppercase; }
 .person-bio { grid-column: 1 / -1; color: var(--ink-soft); font-size: 0.88rem; }
 
