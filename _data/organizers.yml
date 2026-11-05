@@ -24,6 +24,13 @@
   affiliation: The Ohio State University
   bio: Works on robust foundation-model adaptation, continual learning, and robotics.
 
+- name: Ke Zhang
+  initials: KZ
+  homepage: https://openreview.net/profile?id=~Ke_Zhang11
+  photo: ""
+  affiliation: Amazon
+  bio: Works on 3D scene understanding, vision-language foundation models, and object detection.
+
 - name: Wei-Lun (Harry) Chao
   initials: WC
   homepage: https://sites.google.com/view/wei-lun-harry-chao
