@@ -39,6 +39,7 @@ layout: null
           <a href="#submissions">Call for Papers</a>
           <a href="#program">Program</a>
           <a href="#organizers">Organizers</a>
+          <a href="#committee">Committee</a>
         </nav>
       </div>
     </header>
@@ -240,6 +241,41 @@ layout: null
         </div>
       </section>
 
+      <section class="section" id="program-co-chairs">
+        <div class="container">
+          <h2>Program Co-Chairs</h2>
+          <div class="committee-grid"
+               style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <article class="committee-card"><h3>Bo Wang</h3></article>
+            <article class="committee-card"><h3>Qinqian Lei</h3></article>
+            <article class="committee-card"><h3>Zheda Mai</h3></article>
+            <article class="committee-card"><h3>Lemeng Wang</h3></article>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section section-tint" id="committee">
+        <div class="container">
+          <h2>Program Committee (PC)</h2>
+          <div class="committee-grid">
+            {% for person in site.data.committee %}
+            <article class="committee-card">
+              <div>
+                <h3>
+                  <a class="organizer-name"
+                     href="{{ person['OpenReview Account'] | escape }}"
+                     target="_blank" rel="noopener">
+                    {{ person.Name | escape }}
+                  </a>
+                </h3>
+                <p>{{ person.Affiliation | escape }}</p>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      
       <!-- <section class="section section-tint" id="committee">
         <div class="container">
           <div class="section-label">Program Committee</div>
